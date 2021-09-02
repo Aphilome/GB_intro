@@ -16,9 +16,9 @@ namespace TemperatureAnalyzer
                                       $"{(minTemperature + maxTemperature) / 2.0:0.00}");
                     return ;
                 }
-                Console.WriteLine("Can not convert maxTemperature to int");
+                Console.WriteLine("Can not convert maxTemperature to double");
             }
-            Console.WriteLine("Can not convert minTemperature to int");
+            Console.WriteLine("Can not convert minTemperature to double");
         }
     }
 }
